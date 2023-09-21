@@ -1,0 +1,31 @@
+body {
+  font-family: sans-serif;
+}
+
+h1 {
+  color: aquamarine;
+  font-family: sans-serif;
+}
+
+/* ol li {
+  background-color: black;
+  color: white;
+} */
+
+li {
+  font-family: inherit;
+}
+
+li + li {
+  background-color: black;
+  color: white;
+}
+
+code {
+  font-family: monospace;
+  color: red;
+}
+
+.second-li code {
+  color: green;
+}
