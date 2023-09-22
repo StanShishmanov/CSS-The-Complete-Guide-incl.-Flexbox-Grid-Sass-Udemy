@@ -1,0 +1,76 @@
+.main {
+    padding-top: 32px;
+}
+
+.package {
+    width: 80%;
+    margin: 16px 0;
+    border: 4px solid #014d0b;
+    border-left: none;
+    background: #c7edcc;
+}
+
+.package:hover,
+.package:active {
+    cursor: pointer;
+    border-color: #ff5454;
+    border-left: none;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.package a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    padding: 32px;
+}
+
+.package__title {
+    color: black;
+}
+
+.package__heading {
+    color: #979797;
+}
+
+.package__text {
+    border: 2px solid #014d0b;
+    padding: 16px;
+    background: white;
+    font-size: 20px;
+    color: #014d0b;
+}
+
+.clearfix {
+    clear: both;
+}
+
+#plus {
+    background: rgba(213, 255, 220, 0.95);
+}
+
+#free {
+    background-color: rgba(234,252,237, 0.95);
+    border-left: 4px solid #014d0b;
+    border-right: none;
+    float: right;
+}
+
+#free:hover,
+#free:active {
+    cursor: pointer;
+    border-color: #ff5454;
+    box-shadow: -2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+#premium {
+    background: rgba(14, 79, 31, 0.95);
+}
+
+#premium .package__title {
+    color: white;
+}
+
+#premium .package__heading {
+    color: #bbb;
+}
