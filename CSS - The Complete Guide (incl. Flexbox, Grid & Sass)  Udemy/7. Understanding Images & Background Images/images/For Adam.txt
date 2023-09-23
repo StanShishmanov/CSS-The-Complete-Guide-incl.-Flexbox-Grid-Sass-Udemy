@@ -1,0 +1,55 @@
+Hi Adam, here as an inspection report I made for your project.
+
+INSPECTION REPORT
+
+Inspection of sportsinteraction.com
+
+- is using Geo Location protection
+- is using CloudFlare protection
+- is JavaScript heavy i.e. requires Selenium browser (Chrome works)
+- IP Address tracking
+- may have more anti-bot measures implemented which are not visible during initial inspection
+
+Required data can be reached via selenium therefore it CAN be scraped.
+Estimated time to build a flawless scraper with selenium - undetermined - too many unknowns regarding all anti-bot measures as well as general website behavior with javascript - may result in multitude of unexpected errors when using selenium which will extend building time.
+
+
+Inspection of pro-football-reference.com, fbref.com, sports-reference.com, basketball-reference.com, hockey-reference.com, baseball-reference.com
+
+- data is easier to reach as it is presented via html
+- no JavaScript detected
+- although similar in visible structure, the way the data is presented varies between the different domains
+
+Required data can be extracted via scrapy
+Each website will require its own scraper to be built and run
+
+Estimated time per scraper to be built - 1-2 days
+
+Creation of MySQL database, to be hosted on your server - a couple of days
+
+EXTRA INFORMATION:
+- sportsinteraction.com does not require browser incognito mode in order for the data to be reached.
+- sportsinteraction.com does not require Chrome browser in particular in order for the data to be reached (Firefox works as well)
+- sportsinteraction.com does not require the latest version of Chrome to be installed on a machine in order to present the necessary data, much older versions of Chrome work as well.
+
+PROXY IP ADDRESS
+Regarding the purchase of a proxy IP Address - once the scrapers are deployed and start running on your server, they will automatically use the server's IP address. If, at some point, that IP address gets banned/ blocked by a website, what normally is done is making a modification to the code to start utilizing some of the many proxy IP services. This, being a service, allows you to use a different proxy address only when you request it i.e. when you send a request towards sportsinteraction.com, the request first goes through the IP service provider and from there it makes a request towards sportsinteraction.com itself. Then, after the necessary data is extracted, it is returned towards the scraper for future data manipulation/ transportation.
+These services are relatively cheap and usually charge a set price for either "per thousands of requests package" or "per each request".
+If this type of services is needed, I will introduce you to some of the best of them for you to pick one.
+
+QUESTIONS:
+- How often will you need each of the scrapers to run - minutes, hours, days, weeks? Different times for different scrapers?
+- When you write that you 'scrape' data from these websites - are you doing this manually or you already have scripts for that?
+
+OVERVIEW
+
+Overall, I can do all of the scrapers you want with the data you need. 
+Some will take a few days and for sportsinteraction.com - I do not know how long it will take for certain as this will be revealed as I start working on it.
+As for the database - it can be done as well.
+
+As for the type of payment - I generally prefer working on per hour basis.
+
+Let me know if you have any questions and we can move forward from there.
+
+Thanks,
+Stan

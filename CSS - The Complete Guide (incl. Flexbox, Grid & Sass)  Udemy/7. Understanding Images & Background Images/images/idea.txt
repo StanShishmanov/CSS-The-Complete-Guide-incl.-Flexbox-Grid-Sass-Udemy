@@ -1,0 +1,15 @@
+Amazon has something called BSR " Best seller Rank" any category you select will have a list of the top 100 -
+
+
+The dream would be to be able to see the top 2000 in a category based on there BSR rank- and filter out negative keywords like - Marvel, Disney, Nike, Adidas to set a price range from say £7 to £18 this will start to leave only those products which are possible market trends for niche designs. Which we can then concentrate our designs around.
+
+
+There is a google plugin called prettymerch - https://chrome.google.com/webstore/detail/prettymerch-for-merch-by/ahclfnpmodphlaiidnpjlkndabpnihea
+
+PrettyMerch for Merch by Amazon™
+A beautiful dashboard for Merch by Amazon. It updates as you sell and notifies you instantly about new sales with a cha-ching sound
+chrome.google.com
+
+It kind of does this already but is designed for users of the Merch by Amazon who just create designs rather than my company that actually prints and ships- would be great to also extend the functionality to ebay and etsy-
+
+If I was getting daily updates on new entries, changes in what is popular and can get them to market fast enough that will be a powerful tool. I believe Amazon changed something in the past few days that blocks bots from traditional web scraping, they will not want a tool like this to work and so will have to operate stealthily in the background.
