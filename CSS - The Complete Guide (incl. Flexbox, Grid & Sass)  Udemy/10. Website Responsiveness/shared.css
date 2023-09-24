@@ -7,6 +7,11 @@ body {
   margin: 0;
 }
 
+main {
+  min-height: calc(100vh - 3.5rem - 8rem);
+  margin-top: 3.5rem;
+}
+
 .backdrop {
   position: fixed;
   display: none;
@@ -55,12 +60,18 @@ body {
   margin: 0.6rem 0;
 }
 
+@media (min-width: 40rem) {
+  .toggle-button {
+    display: none;
+  }
+}
+
 .main-header__brand {
   color: #0e4f1f;
   text-decoration: none;
   font-weight: bold;
   font-size: 1.5rem;
-  height: 1.5rem;
+  height: 2.5rem;
   /* width: 20px; */
   display: inline-block;
   vertical-align: middle;
@@ -69,6 +80,17 @@ body {
 .main-header__brand img {
   height: 100%;
   /* width: 100%; */
+}
+
+@media (min-width: 40rem) {
+  
+  .main-header__brand {
+    height: 2.5rem;
+  }
+
+  .main-header__brand img {
+    height: 100%;
+  }
 }
 
 .main-nav {
@@ -85,8 +107,14 @@ body {
 }
 
 .main-nav__item {
-  display: inline-block;
-  margin: 0 1rem;
+  display: none;
+}
+
+@media (min-width: 40rem) {
+  .main-nav__item {
+    display: inline-block;
+    margin: 0 1rem;
+  }
 }
 
 .main-nav__item a,
@@ -134,8 +162,15 @@ body {
 }
 
 .main-footer__link {
-  display: inline-block;
-  margin: 0 1rem;
+  display: block;
+  margin: 1rem 0;
+}
+
+@media (min-width: 40rem) {
+  .main-footer__link {
+    display: inline-block;
+    margin: 0 1rem;
+  }
 }
 
 .main-footer__link a {
